@@ -2,7 +2,7 @@
 
 > Projeto desenvolvido para a **Fase 6** da disciplina de Inteligência Artificial.
 
-O **CardioIA** é um sistema preditivo multiagente desenvolvido para realizar uma simulação de classificação de risco cardiovascular utilizando **Machine Learning**, agentes especializados e uma base simulada de protocolos.
+O **CardioIA** é um sistema preditivo multiagente desenvolvido para realizar uma simulação de classificação de risco cardiovascular utilizando **Machine Learning**, agentes especializados e uma base simulada de protocolos
 
 ---
 
