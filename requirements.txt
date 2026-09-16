@@ -1,0 +1,6 @@
+pandas
+numpy
+scikit-learn
+joblib
+openai
+openai-agents==0.22.2
