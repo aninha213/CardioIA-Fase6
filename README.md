@@ -1,4 +1,4 @@
-# ❤️ CardioIA — Sistema Preditivo Multiagente
+# CardioIA — Sistema Preditivo Multiagente
 
 > Projeto desenvolvido para a **Fase 6** da disciplina de Inteligência Artificial.
 
@@ -6,42 +6,42 @@ O **CardioIA** é um sistema preditivo multiagente desenvolvido para realizar um
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 O projeto tem como objetivo desenvolver um sistema capaz de:
 
-- 🤖 Treinar um modelo de Machine Learning para prever a variável `pico_risco`;
-- 📊 Classificar novos pacientes de acordo com o modelo preditivo;
-- 🧠 Integrar o modelo de Machine Learning a uma arquitetura multiagente;
-- 🔄 Utilizar *handoffs* para organizar a comunicação entre os agentes;
-- 📋 Consultar protocolos simulados de acordo com a classificação de risco;
-- 📈 Apresentar uma resposta estruturada com probabilidade, classificação e protocolos sugeridos.
+- Treinar um modelo de Machine Learning para prever a variável `pico_risco`;
+-  Classificar novos pacientes de acordo com o modelo preditivo;
+-  Integrar o modelo de Machine Learning a uma arquitetura multiagente;
+-  Utilizar *handoffs* para organizar a comunicação entre os agentes;
+-  Consultar protocolos simulados de acordo com a classificação de risco;
+-  Apresentar uma resposta estruturada com probabilidade, classificação e protocolos sugeridos.
 
 ---
 
-## 🧠 Arquitetura do sistema
+##  Arquitetura do sistema
 
 O CardioIA é composto por três agentes principais:
 
-### 🔍 Agente Analista de Risco
+###  Agente Analista de Risco
 
 Responsável por consultar o modelo preditivo e obter:
 
 - Probabilidade de pico de risco;
 - Classificação do risco.
 
-### 🩺 Agente Especialista em Protocolos
+###  Agente Especialista em Protocolos
 
 Responsável por relacionar a classificação de risco aos protocolos disponíveis na base simulada.
 
-### 🎯 Agente Orquestrador
+###  Agente Orquestrador
 
 Responsável por coordenar o fluxo entre os agentes e organizar a execução utilizando *handoffs*.
 
 ### Fluxo
 
 ```text
-                    👤 Novo paciente
+                     Novo paciente
                            │
                            ▼
                  ┌────────────────────┐
@@ -75,8 +75,7 @@ Responsável por coordenar o fluxo entre os agentes e organizar a execução uti
 
 ---
 
-## 🤖 Modelo de Machine Learning
-
+##  Modelo de Machine Learning
 Para a classificação de risco foi utilizado o algoritmo:
 
 **Random Forest Classifier**
@@ -101,7 +100,7 @@ Os dados utilizados no treinamento são **sintéticos**, criados especificamente
 
 ---
 
-## 📊 Resultados do modelo
+##  Resultados do modelo
 
 O modelo apresentou:
 
@@ -145,19 +144,19 @@ Protocolos simulados:
 
 ## 🛠️ Tecnologias utilizadas
 
-- 🐍 Python
-- 🐼 Pandas
-- 🔢 NumPy
-- 🌲 Scikit-learn
-- 💾 Joblib
-- 🤖 OpenAI Agents SDK
-- 🦙 Ollama
-- 🧠 Qwen 2.5 0.5B
-- ☁️ Google Colab
+-  Python
+-  Pandas
+-  NumPy
+-  Scikit-learn
+-  Joblib
+-  OpenAI Agents SDK
+-  Ollama
+-  Qwen 2.5 0.5B
+-  Google Colab
 
 ---
 
-## 📁 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 CardioIA-Fase6/
@@ -173,7 +172,7 @@ CardioIA-Fase6/
     └── modelo_cardioia.pkl
 ```
 
-### 📓 Notebook
+###  Notebook
 
 O notebook contém:
 
@@ -190,13 +189,13 @@ O notebook contém:
 - Handoffs;
 - Integração do fluxo multiagente.
 
-### 💾 Modelo
+###  Modelo
 
 O arquivo `modelo_cardioia.pkl` contém o modelo Random Forest treinado e salvo utilizando `joblib`.
 
 ---
 
-## ⚙️ Como executar
+##  Como executar
 
 ### 1. Instalar as dependências
 
@@ -228,7 +227,7 @@ O Ollama deve estar instalado e o modelo disponível localmente para executar a 
 
 ---
 
-## 🔄 Reprodutibilidade
+##  Reprodutibilidade
 
 Para reproduzir o projeto:
 
@@ -241,7 +240,7 @@ Para reproduzir o projeto:
 
 ---
 
-## ⚠️ Limitações
+##  Limitações
 
 Este projeto possui caráter **acadêmico e experimental**.
 
@@ -256,8 +255,7 @@ Os principais pontos de limitação são:
 Para uma aplicação real, seriam necessários dados clínicos reais e anonimizados, validação adequada do modelo, monitoramento contínuo e avaliação por profissionais especializados.
 
 ---
-
-## 📌 Conclusão
+##  Conclusão
 
 O CardioIA demonstra a integração entre **Machine Learning e arquitetura multiagente** em um sistema preditivo.
 
